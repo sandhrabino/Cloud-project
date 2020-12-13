@@ -1,0 +1,12 @@
+extends layout
+
+block variables
+  - var title = "Menu"
+
+block content
+  h2.text-center Menu
+
+  .row
+    .offset-sm-2.col-sm-8
+      .jumbotron.text-center.
+        Welcome to M&M Menu page, #{user.profile.firstName}.

@@ -1,0 +1,15 @@
+version: '3.6'
+services:
+  
+    loginreg:
+      build: ./loginreg
+      container_name: loginreg
+      ports:
+        - "127.0.0.1:81:80"
+
+    food-service:
+      build: ./food-service
+      container_name: food-service
+      ports:
+        - "127.0.0.1:82:80"
+

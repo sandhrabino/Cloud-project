@@ -1,0 +1,26 @@
+extends layout 
+block content
+    h1 Order Form
+    form(action='users/process_get' method='GET')
+        |Order 1:
+        input(type='text' name='order1')
+        br
+        |Order 2:
+        input(type='text' name='order2')
+        br
+        |Order 3:
+        input(type='text' name='order3')
+        br
+        input(type='submit' name='Checkout')
+    br
+
+    //h1 Post Form
+    //form(action='users/process_post' method='POST')
+    //    |First Name:
+    //    input(type='text' name='first_name')
+    //    br
+    //    |Last Name:
+    //    input(type='text' name='last_name')
+    //    br
+    //    input(type='submit' name='Login')
+    
