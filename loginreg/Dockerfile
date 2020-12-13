@@ -16,5 +16,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 3002
-# CMD [ "node", "server.js" ]
-RUN npm start
+CMD [ "node", "app.js" ]
+#RUN npm start

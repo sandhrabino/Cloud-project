@@ -1,0 +1,7 @@
+cd food-service
+docker build -t food-service:0.0 .
+gcloud services enable containerregistry.go
+gcloud services enable containerregistry.googleapis.com
+docker tag food-service:0.0 asia.gcr.io/eminent-hall-296708:latest
+docker push asia.gcr.io/eminent-hall-296708/food-service:latest
+
