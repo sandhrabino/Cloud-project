@@ -31,7 +31,7 @@ router.get('/process_get', function (req, res){
     order3:req.query.order3  
   };
   console.log(response);
-  res.end(' You have succesfully checked out!\nAmount = '+ drinks[response.order1]+' '+drinks[response.order2]
+  res.end(' You have succesfully checked out!\n\nYour Order = '+ drinks[response.order1]+' '+drinks[response.order2]
   +' '+drinks[response.order3]);
 //  res.end(' You have succesfully checked out!\nAmount = '+JSON.stringify(response));
 });

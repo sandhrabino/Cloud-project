@@ -50,7 +50,7 @@ router.get('/form', function(req, res, next) {
 });
 
 router.get('/menu', function(req,res, next){
-  res.send(table.table(drinks))
+  res.send(drinks)
   //res.send(table.table(snacks))
   //res.render('menu')
 });
