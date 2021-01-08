@@ -12,6 +12,6 @@ The Docker files build the respective microservices and in turn the entire appli
 
 To test run the application locally:
 
-```npm build
-npm start```
+```npm build```
+```npm start```
 
